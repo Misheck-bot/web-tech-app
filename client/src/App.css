@@ -1,0 +1,160 @@
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'; }
+.navbar-brand { font-weight: 700; letter-spacing: 0.2px; }
+.list-group-item.active { background: #0d6efd; border-color: #0d6efd; }
+pre { border-radius: .5rem; }
+.bg-code { background: #0f172a; color: #e2e8f0; }
+/* W3Schools-style customizations */
+:root {
+  --w3s-green: #04AA6D;
+  --w3s-dark-green: #059862;
+  --w3s-light-gray: #f1f1f1;
+  --w3s-dark-gray: #333;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Code blocks styling */
+.bg-code {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 0.375rem;
+}
+
+pre code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Tutorial section styling */
+.tutorial-section.active {
+  display: block !important;
+}
+
+.tutorial-content pre {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 0.375rem;
+  padding: 1rem;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Language cards hover effect */
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Playground styling */
+.form-control:focus {
+  border-color: var(--w3s-green);
+  box-shadow: 0 0 0 0.2rem rgba(4, 170, 109, 0.25);
+}
+
+.btn-primary {
+  background-color: var(--w3s-green);
+  border-color: var(--w3s-green);
+}
+
+.btn-primary:hover {
+  background-color: var(--w3s-dark-green);
+  border-color: var(--w3s-dark-green);
+}
+
+.btn-success {
+  background-color: var(--w3s-green);
+  border-color: var(--w3s-green);
+}
+
+.btn-success:hover {
+  background-color: var(--w3s-dark-green);
+  border-color: var(--w3s-dark-green);
+}
+
+/* Hero section */
+.hero-section {
+  background: linear-gradient(135deg, var(--w3s-green) 0%, var(--w3s-dark-green) 100%);
+}
+
+/* Language color badges */
+.lang-badge {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0 auto 1rem;
+}
+
+/* Sidebar styling */
+.sticky-sidebar {
+  position: sticky;
+  top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .lang-badge {
+    width: 60px;
+    height: 60px;
+    font-size: 1rem;
+  }
+}
+
+/* Code editor styling */
+.code-editor {
+  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.4;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+}
+
+/* Output panel styling */
+.output-panel {
+  background-color: #212529;
+  color: #f8f9fa;
+  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.4;
+  min-height: 300px;
+  padding: 1rem;
+  border-radius: 0.375rem;
+}
+
+/* Template buttons */
+.template-btn {
+  text-align: left;
+  border: none;
+  background: none;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.template-btn:hover {
+  background-color: #f8f9fa;
+}
+
+.template-btn:last-child {
+  border-bottom: none;
+}
